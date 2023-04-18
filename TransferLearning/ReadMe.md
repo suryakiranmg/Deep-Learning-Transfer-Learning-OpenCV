@@ -2,20 +2,16 @@
 [Suryakiran George](https://www.linkedin.com/in/suryakiran-mg/)
 
 
-<a href='https://minigpt-4.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  <a href='MiniGPT_4.pdf'><img src='https://img.shields.io/badge/Paper-PDF-red'></a> 
 
 
 ## Online Demo
 
-[![demo](figs/online_demo.png)]()
+[![demo](https://meetsuki-gradio-flower-recognizer.hf.space)]()
 
 ## Examples
-  |   |   |
-:-------------------------:|:-------------------------:
-![find wild](figs/examples/wop_2.png) |  ![write story](figs/examples/ad_2.png)
-![solve problem](figs/examples/fix_1.png)  |  ![write Poem](figs/examples/rhyme_1.png)
 
-More examples can be found in the [project page](https://minigpt-4.github.io).
+
+More examples can be found in the [project page](https://meetsuki-gradio-flower-recognizer.hf.space).
 
 
 ## Introduction - Flower Recognition Problem
