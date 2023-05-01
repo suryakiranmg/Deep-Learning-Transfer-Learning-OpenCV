@@ -93,7 +93,7 @@ Performance evaluation is based on Training accuracy, classification report cont
 - https://www.kaggle.com/datasets/alxmamaev/flowers-recognition
 - https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub
 - https://www.analyticsvidhya.com/blog/2021/11/transfer-learning-with-tensorflow/
-- Lecture Notes from CSI 5140, Oakland University
+- Lecture Notes from CSI 5140
 - https://www.wikipedia.org/
 
 
