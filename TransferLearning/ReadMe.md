@@ -1,17 +1,17 @@
 # Flower Recognition Using Transfer Learning
-[Suryakiran George](https://www.linkedin.com/in/suryakiran-mg/)
+[Suryakiran G.](https://www.linkedin.com/in/suryakiran-mg/)
 
 
 
 
 ## Online Demo
 
-[![demo](https://meetsuki-gradio-flower-recognizer.hf.space)]()
+[~ Demo](https://meetsuki-gradio-flower-recognizer.hf.space)
 
 ## Examples
 
 
-More examples can be found in the [project page](https://meetsuki-gradio-flower-recognizer.hf.space).
+More examples can be found in the [project page](https://meetsuki-gradio-flower-recognizer.hf.space)
 
 
 ## Introduction - Flower Recognition Problem
@@ -52,9 +52,52 @@ More examples can be found in the [project page](https://meetsuki-gradio-flower-
 
 
 
-### Launching Demo Locally
+## Abstract
+
+This project focuses on developing a flower recognition system using transfer learning and several pre-trained neural networks. The objective of the project is to achieve high accuracy in identifying different types of flowers from images, by leveraging the power of pre-trained models that have already been trained on large datasets.
+
+Several pre-trained models, including VGG19, ResNet50, MobileNetV2 and a custom built CNN, are used to extract high-level features from flower images. The extracted features will then be fed into a fully connected neural network that will be trained on a small dataset of flower images specific to the project.
+
+The project aims to evaluate the performance of each pre-trained model and compare the results to select the most suitable model for the given dataset. The models will be trained and tested on a flower dataset containing several hundred images of various flower species. The performance metrics will be evaluated based on accuracy, precision, recall, and F1-score.
+
+The developed flower recognition models can be used in various applications such as horticulture, gardening, and agriculture. It will enable automatic identification and classification of flowers in real-time, significantly reducing the manual effort and time required in these applications.
 
 
-## Acknowledgement
+
+## Method
+
+There are several pre-trained neural networks that can be used for flower image classification tasks. Some of the most popular ones include:
+
+**MobileNet** - MobileNet is a lightweight convolutional neural network designed for mobile and embedded vision applications. Its small size makes it ideal for resource-constrained environments. MobileNetV2 and MobileNetV3 have been used for flower image classification.
+
+**ResNet** (Residual Network) - ResNet is a deep neural network architecture that has been very successful in image classification tasks. The ResNet50 and ResNet101 models have been used for flower image classification with good results.
+
+**VGG** (Visual Geometry Group) - VGG models are known for their simplicity and have achieved state-of-the-art results in various image classification tasks. The VGG16 and VGG19 models are commonly used for flower image classification.
+Pre-trained models can be fine-tuned on flower image datasets to improve their accuracy and achieve good results in flower classification tasks. A simple custom built CNN is also used in training for comparison purposes.
+
+**Transfer Learning :**
+
+The final classification layer from the pretrained neural nets is replaced with a new fully connected layer that outputs the number of classes in the flower dataset.
+
+The weights of the original pretrained model are frozen and training is only performed on the new fully connected layer. This way, the feature extraction section is kept untouched and only the classification layer is fine tuned. This is done to prevent the pre-trained weights which have learned used features from being overwritten and also to speed up the training process.
+
+A suitable optimizer and loss function are chosen, and the hyperparameters are adjusted to obtain desirable accuracy levels.
+
+
+## Evaluation Measure
+
+Performance evaluation is based on Training accuracy, classification report containing accuracy_score, precision_score and recall_score, Confusion matrix and time taken for training of the model.
+
+## Acknowledgements/References:
+
+- https://www.kaggle.com/datasets/alxmamaev/flowers-recognition
+- https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub
+- https://www.analyticsvidhya.com/blog/2021/11/transfer-learning-with-tensorflow/
+- Lecture Notes from CSI 5140, Oakland University
+- https://www.wikipedia.org/
+
+
+
+
 
 
