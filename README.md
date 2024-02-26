@@ -18,4 +18,4 @@ It's a field of great interest nowadays and comes as a useful tool in several ap
 It was an intellectually stimulating experience and helped me develop a deeper understanding of the field, the tools and resources. When I started I had very limited idea about various open source or free tools like Jupyter notebook or PyTorch, various open source libraries etc. (*actually struggled a bit coming up to speed with the basic set up and stuff!*) and did not know much outside of Deep learning using MATLAB which is a proprietary tool and lacks the amount of resources and options and examples that open source nowadays has.
 
 
-It was a great beginning & Thank you!
+ Thank you!
