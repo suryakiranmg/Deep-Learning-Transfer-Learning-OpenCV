@@ -1,5 +1,25 @@
-# Deep-Learning
+# Deep-Learning, Open CV
 
+
+Project1 : Deep Learning - Flower Recognition using Transfer Learning 
+
+
+Project2 : OpenCV - Highway Lane Detection on Camera Images & Video 
+
+
+Project3 : Notes on DL & ML libraries, PyTorch
+
+    PyTorch (ML framework based on Torch Library, used for CV & NLP)
+         - Top Deep Learning Frameworks
+         TensorFlow by Google Brain (Python,Cpp,R) Eg. Google Translate
+         Keras (minimalist, part of TensorFlow core API)
+         mxnet (Python,Cpp,R,Julia,Scala)
+         PyTorch by Facebook (Python)
+         Caffe (C, C++, Python, MATLAB, Command Line), high speed Eg.Vision Recognition
+         Microsoft Cognitive Toolkit(CNTK) (Python, Cpp, Commandline) Eg.Image, handwriting & Speech Recognition
+         DL4J Deep Learning for Java (JVM lang - Java, Scala, Clojure, Kotlin) Eg. Image recog, fraud detect, Text-mining, NLP
+         ONNX Open Neural Network Exchange, by Microsoft & FB
+         MATLAB – Deep Learning Toolbox (c,cpp,Java, MATLAB)
 
 ## My Takeaways :
 
